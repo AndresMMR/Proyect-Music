@@ -1,0 +1,51 @@
+body {
+    margin: 0%;
+    
+}
+.encabezado {
+    margin: 0%;
+    width: 1550px;
+    height: 850px;
+    background-image: url(/assets/images/angel.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 200px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    color: #f4f4f483;
+}
+.text1{
+    color: #f4f4f4ee;
+}
+.contenido{
+    background-color: #f4f4f4;
+    margin: 0%;
+    width: 1550px;
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+}
+.container1{
+    background-color: #f4f4f4;
+    padding: 150px;
+    width: 1550px;
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+.img1{
+    padding: 100px;
+}
+.guitarrista {
+    background-image: url(/assets/images/raptis.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
