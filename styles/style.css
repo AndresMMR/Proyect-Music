@@ -15,7 +15,7 @@ body {
     justify-content: space-around;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 200px;
-    font-weight: 100;
+    font-weight: 200px;
     letter-spacing: 1px;
     color: #f4f4f483;
 }
@@ -41,7 +41,7 @@ body {
     flex-wrap: wrap;
 }
 .texto1{
-    margin: 0 0 10px 0;
+    margin: 0 0 5px 0;
     font-size: 40px;
     font-weight: 1000;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -51,7 +51,7 @@ body {
     -webkit-text-fill-color: transparent;
 }
 .texto2{ 
-    margin: 0 0 10px 0;
+    margin: 0 0 5px 0;
     font-size: 40px;
     font-weight: 1000;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -70,14 +70,15 @@ body {
 }
 .boton {
     font-family:Arial, Helvetica, sans-serif;
-    width: 100px;
+    width: 150px;
     height: 50px;
-    background-color: #FD1D1D;
+    background-color: #ff4d6b;
     text-align: center;
     align-content: center;
-    font-size: 15px;
-    font-weight: 800;
+    font-size: 12px;
+    font-weight: 100;
     color: #fff;
+    border-radius: 25px;
 }
 .img1{
     padding: 100px;
@@ -96,12 +97,59 @@ body {
 .contenido3 {
     margin: 0%;
     width: 1550px;
-    height: 900px;
+    height: 600px;
     background-image: url(/assets/images/raptis.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
 }
 .container3{
-    
+    justify-content: center;
+    padding: 20px;
+    width: 500px;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    color: white;
+}
+.texto4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 560;
+    font-size: 60px;
+    margin: 0 0 15px 0;
+}
+.texto5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0 0 40px 0;
+    letter-spacing: 1px;
+}
+footer{
+    background-color: #ff4d6b;
+    width: 1550px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer{
+    margin: 20px 20px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    color: rgba(255, 255, 255, 0.756);
+    font-size: 20px;
+}
+
+.copy{
+    padding: 15px;
+    border-top: solid 1px rgba(255, 255, 255, 0.853);
+    margin: 20px;
+    width:950px;
+    display: flex;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 0.808);
 }
